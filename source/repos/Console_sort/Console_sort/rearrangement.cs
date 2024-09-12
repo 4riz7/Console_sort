@@ -9,27 +9,29 @@ namespace Rearran
 {
     internal class rearrangement
     {
-        static int swapCount = 0;
+        static ulong swapCount = 0;
+
         public static void InsertionSort(int[] array)
         {
-
+            swapCount = 0;  // Сбрасываем счетчик перед сортировкой
             for (int i = 1; i < array.Length; i++)
             {
-                int k = array[i];
+                int key = array[i];
                 int j = i - 1;
 
-                while (j >= 0 && array[j] > k)
+                while (j >= 0 && array[j] > key)
                 {
                     array[j + 1] = array[j];
-                    array[j] = k;
                     j--;
+                    swapCount++;  // Увеличиваем счетчик перестановок
                 }
+                array[j + 1] = key;
             }
-            PrintArray(array);
-            swap_rearr();
+
+            PrintArray(array);  // Запись в файл
         }
 
-        public static int swap_rearr()
+        public static ulong swap_rearr()
         {
             return swapCount;
         }

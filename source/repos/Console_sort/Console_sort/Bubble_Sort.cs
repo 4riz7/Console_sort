@@ -6,23 +6,23 @@ namespace BubbleSort
     public class Sorting
     {
         // Метод, сортирующий массив целых чисел (по возрастанию)
-        public static void Bubble_Sort(int[] array)
+        public static void Bubble_Sort(int[] array_b)
         {
-            for (int i = 0; i < array.Length; i++)
+            for (int i = 0; i < array_b.Length; i++)
             {
-                for (int j = 0; j < array.Length - 1 - i; j++)
+                for (int j = 0; j < array_b.Length - 1 - i; j++)
                 {
-                    if (array[j] > array[j + 1])
+                    if (array_b[j] > array_b[j + 1])
                     {
-                        Swap( array[j], array[j + 1]);
+                        Swap( array_b[j], array_b[j + 1]);
                     }
                 }
             }
-            PrintArray(array);
+            PrintArray(array_b);
         }
 
         // Вспомогательный метод для обмена элементов массива
-        static int swaps = 0;
+        static ulong swaps = 0;
         public static void Swap(int firstArg, int secondArg)
         {
             int tmp = firstArg;
@@ -31,7 +31,7 @@ namespace BubbleSort
             ++swaps;
         }
 
-        public static int swaps_Bubble() 
+        public static ulong swaps_Bubble() 
         { 
             return swaps;
         }
