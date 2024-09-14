@@ -67,7 +67,7 @@ namespace Cocktail_Sort
 
         public static void PrintArray(int[] array)
         {
-            StreamWriter cocktail_array = new StreamWriter("C:\\Users\\vittm\\source\\repos\\Console_sort\\cocktail_array.txt");
+            StreamWriter cocktail_array = new StreamWriter("Путь к вашему файлу");
             for (int i = 0; i < array.Length; i++)
             {
                 cocktail_array.Write(array[i] + " ");
