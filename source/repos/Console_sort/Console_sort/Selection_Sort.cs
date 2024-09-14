@@ -44,7 +44,7 @@ namespace Selections
 
         public static void PrintArray(int[] array)
         {
-            StreamWriter selection_array = new StreamWriter("C:\\Users\\vittm\\source\\repos\\Console_sort\\selection_array.txt");
+            StreamWriter selection_array = new StreamWriter("Путь к вашему файлу");
             for (int i = 0; i < array.Length; i++)
             {
                 selection_array.Write(array[i] + " ");
