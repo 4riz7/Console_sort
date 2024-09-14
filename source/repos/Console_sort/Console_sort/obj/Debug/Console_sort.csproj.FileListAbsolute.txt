@@ -1,0 +1,7 @@
+C:\Users\vittm\source\repos\Console_sort\Console_sort\obj\Debug\Console_sort.csproj.AssemblyReference.cache
+C:\Users\vittm\source\repos\Console_sort\Console_sort\obj\Debug\Console_sort.csproj.CoreCompileInputs.cache
+C:\Users\vittm\source\repos\Console_sort\Console_sort\bin\Debug\Console_sort.exe.config
+C:\Users\vittm\source\repos\Console_sort\Console_sort\bin\Debug\Console_sort.exe
+C:\Users\vittm\source\repos\Console_sort\Console_sort\bin\Debug\Console_sort.pdb
+C:\Users\vittm\source\repos\Console_sort\Console_sort\obj\Debug\Console_sort.exe
+C:\Users\vittm\source\repos\Console_sort\Console_sort\obj\Debug\Console_sort.pdb

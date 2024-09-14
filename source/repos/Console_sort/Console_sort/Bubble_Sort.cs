@@ -14,7 +14,7 @@ namespace BubbleSort
                 {
                     if (array_b[j] > array_b[j + 1])
                     {
-                        Swap( array_b[j], array_b[j + 1]);
+                        Swap(ref array_b[j], ref array_b[j + 1]);
                     }
                 }
             }
@@ -23,13 +23,14 @@ namespace BubbleSort
 
         // Вспомогательный метод для обмена элементов массива
         static ulong swaps = 0;
-        public static void Swap(int firstArg, int secondArg)
+        static void Swap(ref int firstArg, ref int secondArg)
         {
             int tmp = firstArg;
             firstArg = secondArg;
             secondArg = tmp;
             ++swaps;
         }
+
 
         public static ulong swaps_Bubble() 
         { 
