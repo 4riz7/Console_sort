@@ -57,7 +57,7 @@ namespace Quick_Sort
         // Метод для записи отсортированного массива в файл
         public static void PrintArray(int[] array)
         {
-            StreamWriter quick_array = new StreamWriter("C:\\Users\\vittm\\source\\repos\\Console_sort\\quick_array.txt");
+            StreamWriter quick_array = new StreamWriter("Путь к вашему файлу");
             for (int i = 0; i < array.Length; i++)
             {
                 quick_array.Write(array[i] + " ");
