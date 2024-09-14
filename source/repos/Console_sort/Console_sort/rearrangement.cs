@@ -38,7 +38,7 @@ namespace Rearran
 
         public static void PrintArray(int[] array)
         {
-            StreamWriter rearr_array = new StreamWriter("C:\\Users\\vittm\\source\\repos\\Console_sort\\rearr_array.txt");
+            StreamWriter rearr_array = new StreamWriter("Путь к вашему файлу");
             for (int i = 0; i < array.Length; i++)
             {
                 rearr_array.Write(array[i] + " ");
