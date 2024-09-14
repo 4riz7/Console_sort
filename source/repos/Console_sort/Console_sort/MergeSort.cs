@@ -71,7 +71,7 @@ namespace Merge_Sort
 
         public static void PrintArray(int[] array)
         {
-            StreamWriter merge_array = new StreamWriter("C:\\Users\\vittm\\source\\repos\\Console_sort\\merge_array.txt");
+            StreamWriter merge_array = new StreamWriter("Путь к вашему файлу");
             for (int i = 0; i < array.Length; i++)
             {
                 merge_array.Write(array[i] + " ");
